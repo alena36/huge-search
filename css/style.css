@@ -1,0 +1,29 @@
+body {
+	font-family: Arial, sans-serif;
+	color: #c2c2c2;
+}
+
+.search-results ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.search-result-item {
+	background-color: rgba(118,117,128,0.05);
+	margin-bottom: 5px;
+}
+
+.search-result-item img {
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.search-result-item a {
+	display: block;
+}
+
+.search-result-item h3 {
+	display: inline-block;
+	margin: 0;
+}
