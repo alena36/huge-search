@@ -16,14 +16,29 @@ body {
 
 .search-result-item img {
 	border-radius: 50%;
-	margin: 10px;
+	vertical-align: middle;
+	margin-right: 15px;
 }
 
 .search-result-item a {
 	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 10px;
 }
 
 .search-result-item h3 {
 	display: inline-block;
 	margin: 0;
+	vertical-align: middle;
+	color: #c2c2c2;
+}
+
+.search-result-item a:hover {
+	background-color: rgba(118,117,128,0.1);
+	
+}
+
+.search-result-item a:hover h3 {
+	color: #ec5a62;
 }
